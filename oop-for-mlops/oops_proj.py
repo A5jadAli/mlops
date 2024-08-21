@@ -2,7 +2,7 @@ class ChatBook:
     def __init__(self):
         self.username = ""
         self.password = ""
-        self.looggedin = False
+        self.loggedin = False
         self.menu()
 
     def menu(self):
@@ -11,16 +11,18 @@ class ChatBook:
                            2. Press 2 for Sign in
                            3. Press 3 to write a post
                            4. Press 4 to message someone
-                           5. Press any other key to exit""")
+                           5. Press any other key to exit
+                           
+                           -> """)
         
         if user_input == "1":
             self.signup()
         elif user_input == "2":
             self.signin()
         elif user_input == "3":
-            pass
+            self.write_post()
         elif user_input == "4":
-            pass
+            self.message()
         else:
             exit()
 
@@ -51,6 +53,25 @@ class ChatBook:
                 print("Invalid email or password!")
                 print("\n")
                 self.menu()
+
+    def write_post(self):
+        if self.loggedin == True:
+            post = input("What's on your mind? ")
+            print(f"Following content has been posted {post}")
+        else:
+            print("Please signin to make a post.")
+        print("\n")
+        self.menu()
+
+    def message(self):
+        if self.loggedin == True:
+            msg = input("Enter your message: ")
+            recipient = input("Enter the recipient's email: ")
+            print(f"Message sent to {recipient}")
+        else:
+            print("Please signin to send a message.")
+        print("\n")
+        self.menu()
 
 
 obj = ChatBook()
