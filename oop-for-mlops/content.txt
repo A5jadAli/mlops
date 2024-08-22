@@ -7,3 +7,6 @@
     > code reusability
     > debugging
     > easy to colab
+
+Important concepts in OOP to understand:
+    > Encapsulation
