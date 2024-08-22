@@ -10,3 +10,4 @@
 
 Important concepts in OOP to understand:
     > Encapsulation
+    > Getter and Setter
