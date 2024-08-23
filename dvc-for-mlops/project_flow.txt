@@ -7,3 +7,5 @@
 7. Now do "dvc add data/"   -> you will get an error here because intially we were tracking data/ from git but now we want to do it with DVC
 8. Now "dvc commit" and then "dvc push"
 9. Now do a git add/commit/push to mark this stage as 1st version of data
+10. Now make changes to mycode.py file to append a new row in data and check changes via "dvc status"
+11. Again "dvc commit" and "dvc push"
