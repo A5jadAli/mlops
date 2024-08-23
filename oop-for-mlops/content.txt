@@ -11,3 +11,8 @@
 Important concepts in OOP to understand:
     > Encapsulation
     > Getter and Setter
+    > Static method
+    > Inheritance
+    > Constructor and method overloading
+    > Super keyword
+    > Types of Inheritance

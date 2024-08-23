@@ -6,6 +6,12 @@ class ChatBook:
         self.loggedin = False
         self.menu()
 
+    def getter(self):
+        return self.__name
+    
+    def setter(self, name):
+        self.__name = name
+
     def menu(self):
         user_input = input("""Welcome to ChatBook! How would you like to proceed?
                            1. Press in for Sign up
