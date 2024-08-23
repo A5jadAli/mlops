@@ -5,3 +5,5 @@
 5. Now make a folder of any name. Let's say S3
 6. Now do "dvc remote add -d myremote S3"
 7. Now do "dvc add data/"   -> you will get an error here because intially we were tracking data/ from git but now we want to do it with DVC
+8. Now "dvc commit" and then "dvc push"
+9. Now do a git add/commit/push to mark this stage as 1st version of data
