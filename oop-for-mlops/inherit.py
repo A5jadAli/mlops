@@ -25,3 +25,9 @@ cat = Cat("Cat")
 
 dog.speak()
 cat.speak()
+
+
+# Multiple inheritance
+# Multi-level inheritance
+# Hierarchical inheritance
+# Hybrid inheritance
