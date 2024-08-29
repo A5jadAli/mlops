@@ -1,0 +1,12 @@
+2024-08-24 22:43:12,045 - data_ingestion - DEBUG - Data loaded successfully from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-08-24 22:43:12,053 - data_ingestion - ERROR - Error preprocessing data: "['Unnamed 3', 'Unnamed 4'] not found in axis"
+2024-08-24 22:43:12,053 - data_ingestion - ERROR - Error in main: "['Unnamed 3', 'Unnamed 4'] not found in axis"
+2024-08-24 22:47:15,243 - data_ingestion - DEBUG - Data loaded successfully from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-08-24 22:47:15,251 - data_ingestion - DEBUG - Data preprocessed successfully
+2024-08-24 22:47:15,368 - data_ingestion - DEBUG - Data saved successfully to ./data\raw
+2024-08-24 22:50:47,304 - data_ingestion - DEBUG - Data loaded successfully from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-08-24 22:50:47,312 - data_ingestion - DEBUG - Data preprocessed successfully
+2024-08-24 22:50:47,457 - data_ingestion - DEBUG - Data saved successfully to .//data\raw
+2024-08-24 22:51:58,004 - data_ingestion - DEBUG - Data loaded successfully from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-08-24 22:51:58,004 - data_ingestion - DEBUG - Data preprocessed successfully
+2024-08-24 22:51:58,139 - data_ingestion - DEBUG - Data saved successfully to ..//data\raw
